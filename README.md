@@ -38,6 +38,8 @@
       }
     }
 
+
+
     // Add/Remove Blocks
     const blockGeometry = new THREE.BoxGeometry(1, 1, 1);
     const blockMaterial = new THREE.MeshStandardMaterial({ color: 0x8B4513 });
