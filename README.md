@@ -41,6 +41,8 @@
     const blockMaterial = new THREE.MeshStandardMaterial({ color: 0x8B4513 });
     const blocks = [];
 
+
+
     function addBlock(x, y, z) {
       const block = new THREE.Mesh(blockGeometry, blockMaterial.clone());
       block.position.set(x, y, z);
